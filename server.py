@@ -3,6 +3,8 @@ import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
+# Ребят код фігня давай по новій!!!
+
 sock.bind(('', 13573))
 print ('[+] Ожидания соединения')
 sock.listen(0)
